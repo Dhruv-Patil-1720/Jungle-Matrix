@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(./assets/gamebg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 260px;
+
+}
+.tutorial{
+
+}
+
+#instructions {
+    max-width: fit-content;
+    display: list-item;
+
+  
+  
+    padding: 10px;
+    border-radius: 10px;
+   
+    text-align: left;
+
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+
+    margin-bottom: 10px;
+    color: #351f01;
+}
+
+strong {
+    color: #000000;
+    font-weight: 900;
+}
+li {
+  
+    list-style: none;
+    background-image: url(./assets/mercury-ico-planet-solar-system-icon-png-favpng-pW7THrE2mnckd8J6zzBXwZsaa_t-removebg-preview.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+
+    padding-left: 30px; 
+}
+#next-btn{
+    height: 60px; 
+    margin-left: 38%;
+
+    }   

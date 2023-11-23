@@ -1,0 +1,225 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+body{
+  font-family: 'Mali', cursive;
+  background: url('./assets/finalbg.jpg') no-repeat center center fixed;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+header{
+  display: none;
+  justify-content: space-around;
+  position: relative;
+  top: -10px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0);
+  height: 100px;
+  
+  border-radius: 40px;
+}
+#game-info{
+  display: flex;
+}
+h1{
+  position: relative;
+  top:50px;
+  font-size: 1.6em;
+  color:#211552bf;
+  text-align: center;
+  font-weight: 600;
+}
+h2{
+  font-size: 1.6em;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #211552bf;
+  font-weight: 700;
+}
+span{
+  padding-left:30px;
+}
+
+.next-level,.new-game,.game-over{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 600px;
+ background-image: url(./assets/wroll.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  text-align: center;
+  overflow: hidden;
+  transition-duration:.5s;
+
+}
+#evilface{
+  position: absolute;
+height: 200px;
+margin-top: 80px;
+margin-left: 250px;
+}
+.next-level{
+  display: none;
+  height: 20px;
+}
+.new-game{
+  display: block;
+  
+}
+.input{
+ margin-top: -50px;
+  
+}
+#new-game-button{
+  margin-top: 5px;
+}
+.game-over{
+  display: none;
+  height:20px;
+}
+.new-game input{
+  font-family: 'Mali', cursive;
+  text-align: center;
+  display: block;
+  margin:auto;
+  margin-top: 30px;
+  font-size: 1.5em;
+  font-weight: 400;
+  height:50px;
+  width:250px;
+  background-color: #d1e2dc5c;
+  cursor: pointer;
+  border:2px solid rgb(2, 2, 2);
+  
+}
+
+.next-level .image,.new-game .image{
+  margin-top:20px;
+  height:50%;
+}
+.game-over .image{
+  margin-top: 20px;
+  height:45%;
+}
+.game-over h2,.next-level h2{
+  font-size: 2.5em;
+  margin-top: 30px;
+  text-align: center;
+  color: #000000bf;
+  font-weight: 700;
+}
+.game-over .btn,.next-level .btn{
+  margin:0;
+}
+.next-level img,.new-game img,.game-over img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin:auto;
+}
+.btn {
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 25px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+#losser{
+  position: absolute;
+  height: 200px;
+  margin-top: 70px;
+  margin-left: 250px;
+}
+#play-again-button{
+  position: absolute;
+  margin-left: -80px;
+  margin-top: -40px;
+
+}
+#next-level-button{
+margin-top: -30px;
+margin-left: -50px;
+
+position: absolute;
+}
+#text{
+margin-top: 5px;
+margin-left: 80px;
+
+}
+#angry{
+  height: 200px;
+   position: absolute;
+   margin-top: 70px;
+   margin-left: 250px;
+}
+.blue {
+  background-color: #40484c;
+  box-shadow: 0px 5px 0px 0px rgb(0 0 0 / 80%);
+}
+#loser{
+  font-size: 40px;
+  margin-left: 20px;
+
+}
+
+.blue:hover {
+  background-color: rgb(10, 212, 21);
+}
+.parent{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(8,auto);
+  grid-template-rows: repeat(8,auto);
+  row-gap: 1px;
+  column-gap: 1px;
+
+
+  border-radius: 20px;
+  
+  overflow: hidden;
+  transition-duration:.5s;
+
+}
+.child{
+ background-image: url(./assets/green\ \(1\).png);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+
+  text-align: center;
+  transition-duration: .3s;
+}
+
+ .good{
+  background-image: url(./assets/red\ \(1\).png);
+  background-size: 100% 100%;
+  border-radius: 0.2rem;
+ }
+ .bad{
+  background-image: url(./assets/final\ tile\ \(2\).png);
+  background-size: 100% 100%;
+  border-radius: 0.2rem;}
+ 

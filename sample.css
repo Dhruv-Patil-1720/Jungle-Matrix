@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 20px solid #3E2723; /* Thicker border for the main container */
+  }
+  
+  .box {
+    width: 100%;
+    padding-top: 100%; /* Maintain a 1:1 aspect ratio for each box */
+    position: relative;
+    background-color: #8B4513; /* SaddleBrown for wooden color */
+    border: 8px solid #3E2723; /* Dark brown border for the boxes */
+    margin: -4px; /* Compensate for the border to maintain a seamless grid */
+  }
+  
+  .jungle1,
+  .jungle2,
+  .jungle3,
+  .jungle4,
+  .jungle5,
+  .jungle6,
+  .jungle7,
+  .jungle8,
+  .jungle9 {
+    background-size: cover;
+  }
+  
+  .jungle1 { background-image: url('path/to/jungle-image1.jpg'); }
+  .jungle2 { background-image: url('path/to/jungle-image2.jpg'); }
+  .jungle3 { background-image: url('path/to/jungle-image3.jpg'); }
+  .jungle4 { background-image: url('path/to/jungle-image4.jpg'); }
+  .jungle5 { background-image: url('path/to/jungle-image5.jpg'); }
+  .jungle6 { background-image: url('path/to/jungle-image6.jpg'); }
+  .jungle7 { background-image: url('path/to/jungle-image7.jpg'); }
+  .jungle8 { background-image: url('path/to/jungle-image8.jpg'); }
+  .jungle9 { background-image: url('path/to/jungle-image9.jpg'); }
+
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #7C9A61; /* Jungle green background color */
+  }
+  
+  header {
+    background-color: #2E4932; /* Dark green header background color */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .game-info {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .timer-box,
+  .lives-box,
+  .score-box {
+    background-color: #4E6754; /* Dark green box background color */
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  
+  .value {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
