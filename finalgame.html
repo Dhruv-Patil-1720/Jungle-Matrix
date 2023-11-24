@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+ 
+ 
+  <title>Memory Matrix</title>
+</head>
+<body>
+    <header id='user-info'>
+      <img src="./assets/score (1).png" alt="Score" class="image" id="image1" >
+      <h1 id="score1">Score:<span id='score'>0</span></h1>
+      <img src="./assets/score (1).png" alt="Score" class="image" id="image2" >
+      <h1 id="name"><span id='player-name-header'>0</span></h1>
+      <img src="./assets/score (1).png" alt="Score" class="image" id="image3" >
+      <h1 id="highscore">HighScore:<span id='high-score'>0</span></h1>
+    </header>
+    <header id='game-info'>
+      <img src="./assets/Jungle Matrix.png" alt="heading" id="heading">
+    </header>
+    
+
+    <div class="next-level">
+      <div class="image">
+        <img src="./assets/angry.gif" alt="emoji1" id="angry">
+      </div>
+      <h2 id="text">LUCKY</h2>
+      <a href="#" class="btn blue" id='next-level-button'>Next Level</a>
+      <img src="./assets/quit-removebg-preview.png" alt="quit button" id="quit1">
+    </div>
+
+  <div class="new-game">
+    <div class="image">
+      <img src="./assets/evil.gif" alt="emoji1" id="evilface">
+    </div>
+    <div class="input">
+      <input type="text" id ='player-name' placeholder="Your UserName">
+      <input type="text" id ='player-name1' placeholder="Your NickName">
+    </div>
+   
+
+    <a href="#" class="btn blue" id='new-game-button'>New Game</a>
+  </div>
+  <div class="game-over">
+    <div class="image">
+      <img src="./assets/loser.gif" alt="losser" id="losser">
+    </div>
+    <h2 id="loser">"Next Time,Explorer!"</h2>
+    <a href="#" class="btn blue" id='play-again-button'>Play Again</a>
+    <img src="./assets/quit-removebg-preview.png" alt="quit button" id="quit">
+  </div>
+  
+
+  <div class="parent">
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+  </div>
+  <script>
+    const quitbutton = document.getElementById("quit")
+    quitbutton.onclick=()=>{
+        location.href="gameover.html"
+    }
+    const quitbutton1 = document.getElementById("quit1")
+    quitbutton1.onclick=()=>{
+        location.href="gameover.html"}
+</script>
+ <script src='./app.js'> </script>
+ <script src="./sound.js"></script>
+</body>
+</html>

@@ -101,7 +101,7 @@ const gameSetup=(event)=>{
     goodMoveAudio.currentTime=0;
     goodMoveAudio.play();
     event.target.classList.add('good');
-    player.score+=10;
+    player.score+=20;
     score.innerHTML=player.score;
     event.target.good=false;
 

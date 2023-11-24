@@ -7,16 +7,24 @@
     <link rel="stylesheet" href="gameover.css">
 </head>
 <body>
-    <div class="losser">
-        <img src="./assets/loser.gif" alt="losser" id="losser">
-    </div>
+   
     <div class="score">
-        
+        25
     </div>
     <div class="next-btn">
         <img src="./assets/nextbtn-removebg-preview.png" alt="next-btn" id="next-btn">
     </div>
     
-    
+    <script>
+        const nextbutton = document.getElementById("next-btn")
+        nextbutton.onclick=()=>{
+            location.href="index.html"
+        }
+        const score=document.querySelector('.score');
+        const playerName = localStorage.memoryMatrix ? Object.keys(JSON.parse(localStorage.memoryMatrix))[0] : 'player';
+        const highScoreValue = localStorage.memoryMatrix ? JSON.parse(localStorage.memoryMatrix)[playerName] : 0;
+        score.innerHTML = highScoreValue;
+    </script>
+    <script src="./sound.js"></script>
 </body>
 </html>

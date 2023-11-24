@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(./assets/GameoverPage\ 1.png);
+    background-image: url(./assets/Game\ over\ final.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100vw;
@@ -18,11 +18,22 @@ gap: 55px;}
 #next-btn{
 height: 80px; 
 }    
-#losser{
-    height: 200px;
-  
+.score{
+   font-size: 100px;
+   margin-top: 300px;
+   font-weight: 800;
+   color: whitesmoke;
 }
-.losser{
-    margin-top: 300px;
+@media all and (max-width: 840px) {
+body{
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
 
 }

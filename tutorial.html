@@ -14,7 +14,7 @@
     <ol>
         <li ><strong>Objective:</strong> Find and select highlighted tiles within the maze.</li>
         <li><strong>Memory Challenge:</strong> Memorize the tile pattern displayed briefly.</li>
-        <li><strong>Correct Selections:</strong> Score +50 points for each correctly selected tile.</li>
+        <li><strong>Correct Selections:</strong> Score +20 points for each correctly selected tile.</li>
         <li><strong>Advance Levels:</strong> Progress through levels by consistently making correct selections.</li>
         
         <li><strong>Earn High Scores:</strong> Aim for high scores by recalling tile patterns efficiently.</li>
@@ -27,7 +27,14 @@
         <img src="./assets/nextbtn-removebg-preview.png" alt="next-btn" id="next-btn">
     </div>
 </div>
-
+<script>
+    const nextbutton = document.getElementById("next-btn")
+    nextbutton.onclick=()=>{
+        location.href="finalgame.html"
+    }
+    
+</script>
+<script src="./sound.js"></script>
     
 </body>
 </html>

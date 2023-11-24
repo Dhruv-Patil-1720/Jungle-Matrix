@@ -34,7 +34,17 @@ body{
 #monkeygif2{
   transform: rotateY(180deg);
 }
-
+@media all and (max-width: 840px) {
+  body{
+      background-size: cover;
+      background-position: center;
+  }
+  #heading{
+    height: 100px;
+   
+    
+  }
+}
 
 
  

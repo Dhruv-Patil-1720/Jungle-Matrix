@@ -20,8 +20,42 @@ header{
   
   border-radius: 40px;
 }
-#game-info{
+#score1{
+  font-weight: 700;
+  position: absolute;
+  color: white;
+  top: 30px;
+  left: 100px;
+  
+}
+#highscore{
+  position: absolute;
+  color: white;
+  top: 30px;
+  right: 80px;
+}
+#name{
+  color: white;
+  position: absolute;
+  top: 30px;
+  left: 42%;
+}
+#user-info{
   display: flex;
+  display: none;
+}
+#quit{
+  height: 73px;
+  margin-top: 43px;
+  position: absolute;
+  margin-left: 313px;
+  
+}
+#quit1{
+  height: 63px;
+  margin-top: 72px;
+  margin-left: 353px;
+  
 }
 h1{
   position: relative;
@@ -31,6 +65,7 @@ h1{
   text-align: center;
   font-weight: 600;
 }
+
 h2{
   font-size: 1.6em;
   margin-top: 30px;
@@ -45,7 +80,7 @@ span{
 
 .next-level,.new-game,.game-over{
   position: absolute;
-  top: 52%;
+  top: 50%;
   left: 50%;
   z-index: 10;
   transform: translate(-50%, -50%);
@@ -54,7 +89,7 @@ span{
  background-image: url(./assets/wroll.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  border-radius: 20px;
+
   text-align: center;
   overflow: hidden;
   transition-duration:.5s;
@@ -156,7 +191,7 @@ margin-left: 250px;
 }
 #next-level-button{
 margin-top: -30px;
-margin-left: -50px;
+margin-left: -40px;
 
 position: absolute;
 }
@@ -222,4 +257,42 @@ margin-left: 80px;
   background-image: url(./assets/final\ tile\ \(2\).png);
   background-size: 100% 100%;
   border-radius: 0.2rem;}
- 
+
+  @media all and (max-width: 840px) {
+    body {
+      
+    }
+   
+    .parent{
+      width: 380px;
+      margin-top: 0%;
+      margin-left: 0%;
+    }
+    #highscore{
+      display: none;
+     
+     }
+     #name{
+        display: none;
+     }
+     #image3{
+      display: none;
+     }
+     #image2{
+      display: none;
+     }
+     #score1{
+      
+     
+      color: white;
+      top: 30px;
+      left: 35%;
+      
+    }
+
+  }
+
+   
+
+  
+
