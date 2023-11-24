@@ -5,13 +5,14 @@
 }
 body{
   font-family: 'Mali', cursive;
-  background: url('images/finalbg.jpg') no-repeat center center fixed;
+  background: url('./assets/749.jpg') no-repeat center center fixed;
   background-size: 100% 100%;
   cursor: pointer;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 
  
@@ -36,15 +37,41 @@ body{
 }
 @media all and (max-width: 840px) {
   body{
+      overflow: hidden;
       background-size: cover;
       background-position: center;
   }
   #heading{
-    height: 100px;
+    height: 90px;
+    margin-left: 10px;
+    
    
     
   }
+  #monkeygif1{
+    height: 250px;
+    
+  }
+  .section{
+    top: 50%;
+  }
+  #monkeygif2{
+    display: none;
+  }
+  .section{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px;
+  }
+  #play-button{
+    height: 100px;
+    margin-left: -45px;
+    margin-top:10px 
+     
 }
 
 
- 
+
+}

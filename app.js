@@ -23,6 +23,8 @@ const playAgainButton=document.querySelector('#play-again-button');
 const loseAudio=new Audio('./audio/lose.wav');
 const goodMoveAudio =new Audio('./audio/goodmove.wav');
 const buttonAudio= new Audio('./audio/button.wav');
+let currentLevel = 0; // Add a variable to keep track of the current level
+const levelElement = document.querySelector('#your-level'); // Get the element for displaying the level
 /*
 end global variables
 */
@@ -120,6 +122,20 @@ const gameSetup=(event)=>{
         
       }, 500);
 
+    }
+    if (checkGrids()) {
+      setTimeout(() => {
+        box.style.height = '20px';
+        currentLevel++; // Increase the level
+        levelElement.textContent = currentLevel; // Update the level display
+  
+        setTimeout(() => {
+          nextLevel.style.display = 'block';
+          setTimeout(() => {
+            nextLevel.style.height = '500px';
+          }, 500);
+        }, 500);
+      }, 500);
     }
   }
   else{
@@ -235,4 +251,12 @@ playAgainButton.addEventListener('click',(e)=>{
 /*
 End code Execution
 */
+
+
+
+  
+
+
+
+
 
