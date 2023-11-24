@@ -154,6 +154,7 @@ const gameSetup=(event)=>{
       localStorage.memoryMatrix=JSON.stringify(object);
     }
       tiles=0;
+      currentLevel = 0
       player.score=0;
       score.innerHTML=player.score;
       highScore.innerHTML=object[player.name];
