@@ -46,14 +46,14 @@ Contributions are welcome! If you'd like to contribute to Jungle Matrix, feel fr
 - Submit pull requests
 
 ## References
-logo font -> https://fontmeme.com/
-buttons -> https://pngtree.com/freepng/
-logo -> https://www.brandcrowd.com/
-gifs -> https://tenor.com/en-GB/search/dancing-monkey-gifs
-images -> https://www.freepik.com/
-bg remove -> https://www.remove.bg/
-bg audio -> https://www.youtube.com/watch?v=q4ylMRwfH64
-audio -> https://mixkit.co/free-sound-effects/
+- logo font -> https://fontmeme.com/
+- buttons -> https://pngtree.com/freepng/
+- logo -> https://www.brandcrowd.com/
+- gifs -> https://tenor.com/en-GB/search/dancing-monkey-gifs
+- images -> https://www.freepik.com/
+- bg remove -> https://www.remove.bg/
+- bg audio -> https://www.youtube.com/watch?v=q4ylMRwfH64
+- audio -> https://mixkit.co/free-sound-effects/
 
 Feel the rhythm, embrace the jungle, and conquer the matrix! Have a wild time playing Jungle Matrix! 🌴🐒
 
