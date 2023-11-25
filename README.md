@@ -38,6 +38,13 @@ Want to beat your high score? Click the **Play Again** button and master the jun
 ## Winning the Game
 🎉 Hoorah! You've won the game when you successfully remember and match all 64 tiles from 1 to 64. Master the jungle matrix, beat your high score, and emerge as the true jungle champion!
 
+## Contribution
+Contributions are welcome! If you'd like to contribute to Jungle Matrix, feel free to:
+
+- Report issues or bugs
+- Suggest new features or improvements
+- Submit pull requests
+
 ## References
 logo font -> https://fontmeme.com/
 buttons -> https://pngtree.com/freepng/
