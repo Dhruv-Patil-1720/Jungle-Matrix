@@ -81,6 +81,9 @@ body{
     margin-top:5px 
      
 }
+  #sound-button{
+    display: none;
+  }
 
 
 
