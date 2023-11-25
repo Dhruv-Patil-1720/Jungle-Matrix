@@ -12,26 +12,41 @@ Jungle Matrix is an HTML, CSS, and JavaScript-based game that combines action an
 ## Screens
 
 ### 1. Home Page
-![Home Page](./assets/homepage.png)
+![Home Page](https://github.com/Dhruv-Patil-1720/Jungle-Matrix/blob/main/assets/homepage.png)
 Click the **Play Now** button to start your jungle adventure!
 
 ### 2. Instructions
-![Instructions](./assets/instructions.png)
+![Instructions](https://github.com/Dhruv-Patil-1720/Jungle-Matrix/blob/main/assets/instructions.png)
 Read the game instructions to master the jungle challenges.
 
 ### 3. Login Page
-![Login Page](./assets/login.png)
+![Login Page](https://github.com/Dhruv-Patil-1720/Jungle-Matrix/blob/main/assets/login.png)
 Add your username and nickname to personalize your jungle experience.
 
 ### 4. Jungle Adventure
-![Jungle Adventure](./assets/gameplay.png)
+![Jungle Adventure](https://github.com/Dhruv-Patil-1720/Jungle-Matrix/blob/main/assets/gamepage.png)
 Play the game! Remember the highlighted tiles, and watch your score grow. Your username, current score, and high score are displayed.
 
 ### 5. Level Complete
-![Level Complete](./assets/level-complete.png)
+![Level Complete](https://github.com/Dhruv-Patil-1720/Jungle-Matrix/blob/main/assets/next-level.png)
 Congratulations! You've completed the level. Get ready for the next challenge!
 
 ### 6. Play Again
-![Play Again](./assets/play-again.png)
+![Play Again](https://github.com/Dhruv-Patil-1720/Jungle-Matrix/blob/main/assets/play-again.png)
 Want to beat your high score? Click the **Play Again** button and master the jungle matrix.
+
+## Winning the Game
+🎉 Hoorah! You've won the game when you successfully remember and match all 64 tiles from 1 to 64. Master the jungle matrix, beat your high score, and emerge as the true jungle champion!
+
+## References
+logo font -> https://fontmeme.com/
+buttons -> https://pngtree.com/freepng/
+logo -> https://www.brandcrowd.com/
+gifs -> https://tenor.com/en-GB/search/dancing-monkey-gifs
+images -> https://www.freepik.com/
+bg remove -> https://www.remove.bg/
+
+Feel the rhythm, embrace the jungle, and conquer the matrix! Have a wild time playing Jungle Matrix! 🌴🐒
+
+[Play Now](#)
 
