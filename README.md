@@ -48,5 +48,5 @@ bg remove -> https://www.remove.bg/
 
 Feel the rhythm, embrace the jungle, and conquer the matrix! Have a wild time playing Jungle Matrix! 🌴🐒
 
-[Play Now](#)
+[Play Now](#)(https://dhruv-patil-1720.github.io/Jungle-Matrix/index.html)
 
