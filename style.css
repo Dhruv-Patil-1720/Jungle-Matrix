@@ -9,6 +9,16 @@ body{
   background-size: 100% 100%;
   cursor: pointer;
 }
+#sound-button {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  background-image: url('./assets/sound_on_-removebg-preview\ \(1\).png'); 
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: -15px;
+  left: 0px;
+}
 
 header{
   display: none;
@@ -30,10 +40,11 @@ header{
   
 }
 #highscore{
+  font-size: 28px;
   position: absolute;
   color: white;
   top: 30px;
-  right: 90px;
+  right: 110px;
 }
 #name{
   color: white;
@@ -48,11 +59,11 @@ header{
 
 #quit1{
   position: absolute;
-  height: 62px;
+  height: 60px;
   bottom: 0px;
 
   
-  left: 640px;
+  left: 635px;
   
 }
 
@@ -68,6 +79,7 @@ h1{
 h3{
   font-size: 1.6em;
   margin-top: 30px;
+  margin-left: 40px;
   margin-bottom: 40px;
   text-align: center;
   color: #211552bf;
@@ -221,10 +233,10 @@ margin-left: 65px;
 }
 .parent{
   position: absolute;
-  top: 50%;
+  top: 52.5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 700px;
+  width: 600px;
   height: auto;
   display: grid;
   grid-template-columns: repeat(8,auto);
@@ -243,9 +255,8 @@ margin-left: 65px;
  background-image: url(./assets/green\ \(1\).png);
  background-repeat: no-repeat;
  background-size: 100% 100%;
-
-  text-align: center;
-  transition-duration: .3s;
+ text-align: center;
+ transition-duration: .3s;
 }
 
  .good{
@@ -296,6 +307,9 @@ margin-left: 65px;
       height: 62px;
       
     
+    }
+    #sound-button {
+      display: none;
     }
 
   }
