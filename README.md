@@ -52,6 +52,8 @@ logo -> https://www.brandcrowd.com/
 gifs -> https://tenor.com/en-GB/search/dancing-monkey-gifs
 images -> https://www.freepik.com/
 bg remove -> https://www.remove.bg/
+bg audio -> https://www.youtube.com/watch?v=q4ylMRwfH64
+audio -> https://mixkit.co/free-sound-effects/
 
 Feel the rhythm, embrace the jungle, and conquer the matrix! Have a wild time playing Jungle Matrix! 🌴🐒
 
